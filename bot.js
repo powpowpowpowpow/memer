@@ -29,7 +29,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             // <ping
             case 'ping':
                 bot.sendMessage({
-                    to: channelID,
+                    to: 401882570356293632,
                     message: 'Pong!'
                 });
             break;
